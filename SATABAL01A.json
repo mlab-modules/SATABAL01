@@ -1,0 +1,22 @@
+{
+    "wiki": "None",
+    "status": 2,
+    "name": "SATABAL01A",
+    "parameters": [],
+    "short_en": " RF balun with unballanced MCX/SMA and balanced SATA connectors ",
+    "image_small": "/doc/img/SATABAL01_PCB.png",
+    "image": "/doc/src/img/SATABAL01_PCB.png",
+    "short_cs": "RF balun z asymetrického MCX nebo SMA na symetrický SATA konektor",
+    "longname_en": "",
+    "mark": 50.0,
+    "ust": "",
+    "doc_cs": "",
+    "longname_cs": "",
+    "doc_en": "<p>None</p>",
+    "_id": "SATABAL01A",
+    "root": "ADC/SATABAL01A",
+    "author[]": [],
+    "category[]": [
+        "commrf"
+    ]
+}
