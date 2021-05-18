@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(5.99.0-10394-g2e15de97e0)"
     },
-    "CreationDate": "2021-05-18T08:33:44+02:00"
+    "CreationDate": "2021-05-18T08:39:57+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -44,8 +44,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SATABAL01A-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
+      "Path": "SATABAL01A-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
