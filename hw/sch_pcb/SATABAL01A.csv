@@ -1,0 +1,28 @@
+"Source:","G:\MLAB_G\Moduly_zvlast\SATABAL01\hw\sch_pcb\SATABAL01A.kicad_sch"
+"Date:","08.06.2021 7:00:51"
+"Tool:","Eeschema (5.99.0-10394-g2e15de97e0)"
+"Generator:","C:\Program Files\KiCad\5.99\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","9"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","UST_ID"
+"","","H1","Pad","Mechanical:MountingHole_Pad","Mlab_Mechanical:MountingHole_3mm","~",""
+"","","H2","Pad","Mechanical:MountingHole_Pad","Mlab_Mechanical:MountingHole_3mm","~",""
+"","","H3","Pad","Mechanical:MountingHole_Pad","Mlab_Mechanical:MountingHole_3mm","~",""
+"","","H4","Pad","Mechanical:MountingHole_Pad","Mlab_Mechanical:MountingHole_3mm","~",""
+"","","J1","SATA7-67491-1030","FMC2DIFF-rescue:SATA7-67491-1030-konektory","Mlab_CON:SATA-7_THT_VERT_2","","5c70984712875079b91f8a7b"
+"","","J2","Conn_Coaxial SMA or MCX","Connector:Conn_Coaxial","Connector_Coaxial:SMA_Amphenol_901-144_Vertical"," ~","5c70984412875079b91f87ac"
+"","","J3","Conn_Coaxial SMA or MCX","Connector:Conn_Coaxial","Connector_Coaxial:SMA_Amphenol_901-144_Vertical"," ~","5c70984412875079b91f87ac"
+"","","T1","ETC1-1-13","QFHBAL01-rescue:ETC1-1-13-riske-symbols","Transformer_SMD:Transformer_MACOM_SM-22","https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf","5face38612875025b3977e95"
+"","","T2","ETC1-1-13","QFHBAL01-rescue:ETC1-1-13-riske-symbols","Transformer_SMD:Transformer_MACOM_SM-22","https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf","5face38612875025b3977e95"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","UST_ID"
+"1","4","H1, H2, H3, H4","Pad","Mechanical:MountingHole_Pad","Mlab_Mechanical:MountingHole_3mm","~",""
+"2","1","J1","SATA7-67491-1030","FMC2DIFF-rescue:SATA7-67491-1030-konektory","Mlab_CON:SATA-7_THT_VERT_2","","5c70984712875079b91f8a7b"
+"3","2","J2, J3","Conn_Coaxial SMA or MCX","Connector:Conn_Coaxial","Connector_Coaxial:SMA_Amphenol_901-144_Vertical"," ~","5c70984412875079b91f87ac"
+"4","2","T1, T2","ETC1-1-13","QFHBAL01-rescue:ETC1-1-13-riske-symbols","Transformer_SMD:Transformer_MACOM_SM-22","https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf","5face38612875025b3977e95"
