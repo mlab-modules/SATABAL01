@@ -11,5 +11,12 @@ images:
 - doc/src/img/SATABAL01_PCB.png
 issues: 0
 mark: 50
-tags: []
+tags:
+- mlab
+- mlab-module
+- kicad
+- kicad-pcb
+- kicad-project
+- mlab-kicad
+- pcb
 title: SATABAL01
