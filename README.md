@@ -2,6 +2,9 @@
 
 SATABAL01 is a passive RF balun module designed to interface high-speed differential pairs used in SATA data lines with unbalanced coaxial transmission lines. This module is primarily intended for applications requiring measurement, testing, or signal routing of SATA signals over RF-grade coaxial cables.
 
+
+![SATABAL01 Top view](doc/gen/img/SATABAL01-top.png)
+
 ## Features
 
 - Converts differential SATA signals to unbalanced RF signals and vice versa
