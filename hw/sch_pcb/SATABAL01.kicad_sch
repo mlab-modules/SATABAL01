@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC coaxial connector CINCH RCA"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch*"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -94,9 +94,9 @@
 					)
 				)
 				(arc
-					(start -1.778 0.508)
-					(mid 0.2058 1.782)
-					(end 1.778 0)
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -106,9 +106,9 @@
 					)
 				)
 				(arc
-					(start 1.778 0)
-					(mid 0.2281 -1.7855)
-					(end -1.778 -0.508)
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -459,7 +459,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 6.35 0)
@@ -557,41 +557,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "QFHBAL01-rescue:ETC1-1-13-riske-symbols"
+		(symbol "Transformer:ETC1-1-13"
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "T"
-				(at 1.27 7.62 0)
+			(property "Reference" "TR"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ETC1-1-13-riske-symbols"
-				(at 2.54 -7.62 0)
+			(property "Value" "ETC1-1-13"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 0 90)
+			(property "Footprint" "Transformer_SMD:Transformer_MACOM_SM-22"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -599,7 +589,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://cdn.macom.com/datasheets/ETC1-1-13.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22"
 				(at 0 0 0)
 				(effects
 					(font
@@ -608,10 +607,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "ETC1-1-13-riske-symbols_0_1"
+			(property "ki_keywords" "MACOM RF Transformer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Transformer*MACOM*SM?22*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ETC1-1-13_0_0"
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy 7.62 -0.635)
+						(xy 3.81 0.762) (xy 3.81 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -621,238 +638,355 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -1.778 2.032)
-					(radius 0.5588)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.27 -3.8608)
-					(mid -0.3899 -4.2253)
-					(end 0 -5.1054)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 3.81)
-					(mid -2.168 4.182)
-					(end -2.5146 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 5.08)
-					(mid -0.372 4.182)
-					(end -1.27 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.5146 -5.1054)
-					(mid -2.1501 -4.2253)
-					(end -1.27 -3.8608)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -3.8354)
-					(mid 2.1501 -4.1999)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 3.81)
-					(mid 0.372 4.182)
-					(end 0.0254 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 5.08)
-					(mid 2.168 4.182)
-					(end 1.27 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.0254 -5.08)
-					(mid 0.3899 -4.1999)
-					(end 1.27 -3.8354)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 -3.8354)
-					(mid 4.6901 -4.1999)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 3.81)
-					(mid 2.912 4.182)
-					(end 2.5654 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 5.08)
-					(mid 4.708 4.182)
-					(end 3.81 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5654 -5.08)
-					(mid 2.9299 -4.1999)
-					(end 3.81 -3.8354)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.35 -3.8354)
-					(mid 7.2301 -4.1999)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.35 3.81)
-					(mid 5.452 4.182)
-					(end 5.1054 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 5.08)
-					(mid 7.248 4.182)
-					(end 6.35 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.1054 -5.08)
-					(mid 5.4699 -4.1999)
-					(end 6.35 -3.8354)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.858 2.032)
-					(radius 0.5588)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0.635) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "Mounting"
+					(at 3.429 0 900)
+					(effects
+						(font
+							(size 0.254 0.254)
+							(bold yes)
+						)
 					)
 				)
 			)
-			(symbol "ETC1-1-13-riske-symbols_1_1"
+			(symbol "ETC1-1-13_1_1"
+				(circle
+					(center -3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 0.508) (xy -2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -0.508) (xy -2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.032) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 2.032)
+					(mid -2.032 1.5262)
+					(end -2.54 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.032)
+					(mid -2.032 -1.5262)
+					(end -1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.508) (xy -1.27 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 2.032)
+					(mid -1.016 1.5262)
+					(end -1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -2.032)
+					(mid -1.016 -1.5262)
+					(end -0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0.508) (xy -0.254 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.508) (xy -0.254 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 2.032)
+					(mid 0 1.5262)
+					(end -0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -2.032)
+					(mid 0 -1.5262)
+					(end 0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 2.032)
+					(mid 1.016 1.5262)
+					(end 0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -2.032)
+					(mid 1.016 -1.5262)
+					(end 1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 1.778 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy 1.778 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.032)
+					(mid 2.032 1.5262)
+					(end 1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 2.032 -1.5262)
+					(end 2.54 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0.508) (xy 2.794 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -0.508) (xy 2.794 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at -10.16 5.08 0)
-					(length 7.62)
-					(name "AA"
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -868,9 +1002,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 7.62)
-					(name "AB"
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -886,9 +1020,9 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 5.08 180)
-					(length 7.62)
-					(name "SB"
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -904,9 +1038,9 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "SC"
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -922,9 +1056,9 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -5.08 180)
-					(length 7.62)
-					(name "SA"
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -944,8 +1078,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -994,7 +1132,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1021,8 +1159,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1167,11 +1304,11 @@
 		(uuid "e1d7fe85-31d7-42d9-a066-228b4a7e2d59")
 	)
 	(no_connect
-		(at 165.1 96.52)
+		(at 154.94 96.52)
 		(uuid "306d10ea-4dd1-495f-a416-4614c11b1b8b")
 	)
 	(no_connect
-		(at 165.1 67.31)
+		(at 154.94 67.31)
 		(uuid "9d381564-a143-4552-b4a7-ea81426d279d")
 	)
 	(wire
@@ -1226,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 72.39) (xy 166.37 73.66)
+			(xy 156.21 69.85) (xy 156.21 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1393,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 101.6) (xy 166.37 101.6)
+			(xy 154.94 99.06) (xy 156.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 101.6) (xy 166.37 102.87)
+			(xy 156.21 99.06) (xy 156.21 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +1583,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 72.39) (xy 166.37 72.39)
+			(xy 154.94 69.85) (xy 156.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1662,7 @@
 		(uuid "eb6d79e2-f38e-475e-b577-827509b2391a")
 	)
 	(label "OUT2"
-		(at 165.1 91.44 0)
+		(at 154.94 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1565,7 +1702,7 @@
 		(uuid "4a5a7648-1716-4804-907c-384de546702a")
 	)
 	(label "IN2N"
-		(at 139.7 101.6 180)
+		(at 144.78 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1595,7 +1732,7 @@
 		(uuid "6783ceca-4b82-4d6e-a451-c730f665d8ad")
 	)
 	(label "IN2P"
-		(at 139.7 91.44 180)
+		(at 144.78 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1615,7 +1752,7 @@
 		(uuid "a3c22dd4-2c59-4cd3-bb5b-f380ac2357c5")
 	)
 	(label "IN1N"
-		(at 139.7 72.39 180)
+		(at 144.78 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1625,7 +1762,7 @@
 		(uuid "ab92c854-78e3-40d7-a887-edb95b2aa3f6")
 	)
 	(label "OUT1"
-		(at 165.1 62.23 0)
+		(at 154.94 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1635,7 +1772,7 @@
 		(uuid "dd036c48-66b6-4f94-bc48-735b5843406e")
 	)
 	(label "IN1P"
-		(at 139.7 62.23 180)
+		(at 144.78 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1649,7 +1786,7 @@
 		(at 248.92 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f8dc398")
@@ -1714,7 +1851,7 @@
 		(at 264.16 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f8dc703")
@@ -1810,7 +1947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 229.87 65.405 0)
 			(effects
 				(font
@@ -1856,12 +1993,13 @@
 		(at 248.92 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005f962209")
 		(property "Reference" "H2"
-			(at 251.46 30.5054 0)
+			(at 251.46 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +2008,7 @@
 			)
 		)
 		(property "Value" "Pad"
-			(at 251.46 32.8168 0)
+			(at 251.46 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +2059,7 @@
 		(at 264.16 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f96221d")
@@ -1982,7 +2120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "QFHBAL01-rescue:ETC1-1-13-riske-symbols")
+		(lib_id "Transformer:ETC1-1-13")
 		(at 149.86 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2067,7 +2205,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 73.66 0)
+		(at 156.21 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2075,7 +2213,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f968856")
 		(property "Reference" "#PWR02"
-			(at 166.37 80.01 0)
+			(at 156.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2222,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.497 78.0542 0)
+			(at 156.337 75.5142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 73.66 0)
+			(at 156.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 73.66 0)
+			(at 156.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2248,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 73.66 0)
+			(at 156.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2396,7 @@
 		)
 	)
 	(symbol
-		(lib_id "QFHBAL01-rescue:ETC1-1-13-riske-symbols")
+		(lib_id "Transformer:ETC1-1-13")
 		(at 149.86 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2377,7 +2515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 228.6 95.885 0)
 			(effects
 				(font
@@ -2582,7 +2720,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 102.87 0)
+		(at 156.21 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2590,7 +2728,7 @@
 		(dnp no)
 		(uuid "c415f57e-f9c8-48c2-9d9a-e9a2e90956ec")
 		(property "Reference" "#PWR03"
-			(at 166.37 109.22 0)
+			(at 156.21 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.497 107.2642 0)
+			(at 156.337 104.7242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 102.87 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 102.87 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 102.87 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
