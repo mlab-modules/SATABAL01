@@ -1,0 +1,10 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"H1","Pad","MountingHole_3mm",5.0800,5.0800,0.0000,top
+"H2","Pad","MountingHole_3mm",5.0800,25.4000,0.0000,top
+"H3","Pad","MountingHole_3mm",35.5600,5.0800,0.0000,top
+"H4","Pad","MountingHole_3mm",35.5600,25.4000,0.0000,top
+"J1","SATA7-67491-1030","SATA-7_THT_VERT_2",23.9268,22.8586,0.0000,top
+"J2","Conn_Coaxial SMA or MCX","SMA_Amphenol_901-144_Vertical",14.9098,8.7630,0.0000,top
+"J3","Conn_Coaxial SMA or MCX","SMA_Amphenol_901-144_Vertical",25.3238,8.7630,0.0000,top
+"T1","ETC1-1-13","Transformer_MACOM_SM-22",24.8158,17.1958,-90.0000,bottom
+"T2","ETC1-1-13","Transformer_MACOM_SM-22",16.2560,17.2090,-90.0000,bottom

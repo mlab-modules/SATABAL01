@@ -1,0 +1,4 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id
+1,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J2J3,Conn_Coaxial SMA or MCX,SMA_Amphenol_901-144_Vertical,2,~,5c70984412875079b91f87ac
+2,,SATA7-67491-1030-konektory,J1,SATA7-67491-1030,SATA-7_THT_VERT_2,1,,5c70984712875079b91f8a7b
+3,"4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22",ETC1-1-13,T1T2,ETC1-1-13,Transformer_MACOM_SM-22,2,https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf,5face38612875025b3977e95

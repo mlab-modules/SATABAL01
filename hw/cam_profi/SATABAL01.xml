@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/github/workspace/hw/sch_pcb/SATABAL01A.kicad_sch</source>
-    <date>Wed Apr  6 12:52:18 2022</date>
-    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <source>/github/workspace/hw/sch_pcb/SATABAL01.kicad_sch</source>
+    <date>2025-12-20T21:10:04+0000</date>
+    <tool>Eeschema 9.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
+        <title>SATABAL01A</title>
+        <company>MLAB.cz</company>
         <rev/>
         <date>2021-04-28</date>
-        <source>SATABAL01A.kicad_sch</source>
-        <comment number="1" value=""/>
+        <source>SATABAL01.kicad_sch</source>
+        <comment number="1" value="RF balun with unballanced MCX/SMA\nand balanced SATA connectors "/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -27,36 +27,72 @@
     <comp ref="H1">
       <value>Pad</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f8dc398</tstamps>
     </comp>
     <comp ref="H2">
       <value>Pad</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f962209</tstamps>
     </comp>
     <comp ref="H3">
       <value>Pad</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f8dc703</tstamps>
     </comp>
     <comp ref="H4">
       <value>Pad</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f96221d</tstamps>
     </comp>
@@ -65,39 +101,52 @@
       <footprint>Mlab_CON:SATA-7_THT_VERT_2</footprint>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8a7b</field>
+        <field name="Footprint">Mlab_CON:SATA-7_THT_VERT_2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="FMC2DIFF-rescue" part="SATA7-67491-1030-konektory" description=""/>
       <property name="UST_ID" value="5c70984712875079b91f8a7b"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ad183d13-c8ad-48c1-a776-54419a55a278</tstamps>
     </comp>
     <comp ref="J2">
       <value>Conn_Coaxial SMA or MCX</value>
       <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
-      <datasheet> ~</datasheet>
+      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f87ac</field>
+        <field name="Footprint">Connector_Coaxial:SMA_Amphenol_901-144_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
       </fields>
-      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
       <property name="UST_ID" value="5c70984412875079b91f87ac"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6a717fd2-443a-4d1e-a4be-b7027b4b7436</tstamps>
     </comp>
     <comp ref="J3">
       <value>Conn_Coaxial SMA or MCX</value>
       <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
-      <datasheet> ~</datasheet>
+      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f87ac</field>
+        <field name="Footprint">Connector_Coaxial:SMA_Amphenol_901-144_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
       </fields>
-      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
       <property name="UST_ID" value="5c70984412875079b91f87ac"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f8ddcd9</tstamps>
     </comp>
@@ -107,11 +156,16 @@
       <datasheet>https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf</datasheet>
       <fields>
         <field name="UST_ID">5face38612875025b3977e95</field>
+        <field name="Footprint">Transformer_SMD:Transformer_MACOM_SM-22</field>
+        <field name="Datasheet">https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf</field>
+        <field name="Description"/>
       </fields>
-      <libsource lib="QFHBAL01-rescue" part="ETC1-1-13-riske-symbols" description=""/>
+      <libsource lib="Transformer" part="ETC1-1-13" description="4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22"/>
       <property name="UST_ID" value="5face38612875025b3977e95"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
+      <property name="ki_keywords" value="MACOM RF Transformer"/>
+      <property name="ki_fp_filters" value="Transformer*MACOM*SM?22*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f9673c6</tstamps>
     </comp>
@@ -121,30 +175,41 @@
       <datasheet>https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf</datasheet>
       <fields>
         <field name="UST_ID">5face38612875025b3977e95</field>
+        <field name="Footprint">Transformer_SMD:Transformer_MACOM_SM-22</field>
+        <field name="Datasheet">https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf</field>
+        <field name="Description"/>
       </fields>
-      <libsource lib="QFHBAL01-rescue" part="ETC1-1-13-riske-symbols" description=""/>
+      <libsource lib="Transformer" part="ETC1-1-13" description="4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22"/>
       <property name="UST_ID" value="5face38612875025b3977e95"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SATABAL01A.kicad_sch"/>
+      <property name="Sheetfile" value="SATABAL01.kicad_sch"/>
+      <property name="ki_keywords" value="MACOM RF Transformer"/>
+      <property name="ki_fp_filters" value="Transformer*MACOM*SM?22*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>34f36223-8bfa-4162-8daf-10329da58d22</tstamps>
     </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="Conn_Coaxial">
-      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
-      <docs> ~</docs>
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs>~</docs>
       <footprints>
         <fp>*BNC*</fp>
         <fp>*SMA*</fp>
         <fp>*SMB*</fp>
         <fp>*SMC*</fp>
         <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_Coaxial</field>
-        <field name="Datasheet"> ~</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
       </fields>
       <pins>
         <pin num="1" name="In" type="passive"/>
@@ -156,6 +221,8 @@
         <field name="Reference">J</field>
         <field name="Value">SATA7-67491-1030-konektory</field>
         <field name="Footprint">MOLEX_67491-1030</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -178,23 +245,33 @@
       <fields>
         <field name="Reference">H</field>
         <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="QFHBAL01-rescue" part="ETC1-1-13-riske-symbols">
+    <libpart lib="Transformer" part="ETC1-1-13">
+      <description>4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22</description>
+      <docs>https://cdn.macom.com/datasheets/ETC1-1-13.pdf</docs>
+      <footprints>
+        <fp>Transformer*MACOM*SM?22*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">T</field>
-        <field name="Value">ETC1-1-13-riske-symbols</field>
+        <field name="Reference">TR</field>
+        <field name="Value">ETC1-1-13</field>
+        <field name="Footprint">Transformer_SMD:Transformer_MACOM_SM-22</field>
+        <field name="Datasheet">https://cdn.macom.com/datasheets/ETC1-1-13.pdf</field>
+        <field name="Description">4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22</field>
       </fields>
       <pins>
-        <pin num="1" name="AA" type="passive"/>
-        <pin num="2" name="AB" type="passive"/>
-        <pin num="3" name="SA" type="passive"/>
-        <pin num="4" name="SC" type="passive"/>
-        <pin num="5" name="SB" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="MP" type="passive"/>
+        <pin num="5" name="" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -205,33 +282,36 @@
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
+    <library logical="Transformer">
+      <uri>/usr/share/kicad/symbols//Transformer.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="/IN1N">
+    <net code="1" name="/IN1N" class="RF">
       <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="T1" pin="2" pinfunction="AB" pintype="passive"/>
+      <node ref="T1" pin="2" pintype="passive"/>
     </net>
-    <net code="2" name="/IN1P">
+    <net code="2" name="/IN1P" class="RF">
       <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="T1" pin="1" pinfunction="AA" pintype="passive"/>
+      <node ref="T1" pin="1" pintype="passive"/>
     </net>
-    <net code="3" name="/IN2N">
+    <net code="3" name="/IN2N" class="RF">
       <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="T2" pin="2" pinfunction="AB" pintype="passive"/>
+      <node ref="T2" pin="2" pintype="passive"/>
     </net>
-    <net code="4" name="/IN2P">
+    <net code="4" name="/IN2P" class="RF">
       <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
-      <node ref="T2" pin="1" pinfunction="AA" pintype="passive"/>
+      <node ref="T2" pin="1" pintype="passive"/>
     </net>
-    <net code="5" name="/OUT1">
+    <net code="5" name="/OUT1" class="RF">
       <node ref="J3" pin="1" pinfunction="In" pintype="passive"/>
-      <node ref="T1" pin="5" pinfunction="SB" pintype="passive"/>
+      <node ref="T1" pin="5" pintype="passive"/>
     </net>
-    <net code="6" name="/OUT2">
+    <net code="6" name="/OUT2" class="RF">
       <node ref="J2" pin="1" pinfunction="In" pintype="passive"/>
-      <node ref="T2" pin="5" pinfunction="SB" pintype="passive"/>
+      <node ref="T2" pin="5" pintype="passive"/>
     </net>
-    <net code="7" name="GND">
+    <net code="7" name="GND" class="Default">
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
@@ -243,14 +323,14 @@
       <node ref="J1" pin="9" pinfunction="7" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Ext" pintype="passive"/>
-      <node ref="T1" pin="3" pinfunction="SA" pintype="passive"/>
-      <node ref="T2" pin="3" pinfunction="SA" pintype="passive"/>
+      <node ref="T1" pin="3" pintype="passive"/>
+      <node ref="T2" pin="3" pintype="passive"/>
     </net>
-    <net code="8" name="unconnected-(T1-Pad4)">
-      <node ref="T1" pin="4" pinfunction="SC" pintype="passive+no_connect"/>
+    <net code="8" name="unconnected-(T1-MP-Pad4)" class="Default">
+      <node ref="T1" pin="4" pinfunction="MP" pintype="passive+no_connect"/>
     </net>
-    <net code="9" name="unconnected-(T2-Pad4)">
-      <node ref="T2" pin="4" pinfunction="SC" pintype="passive+no_connect"/>
+    <net code="9" name="unconnected-(T2-MP-Pad4)" class="Default">
+      <node ref="T2" pin="4" pinfunction="MP" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
