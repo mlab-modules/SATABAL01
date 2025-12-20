@@ -2007,16 +2007,45 @@
 			)
 		)
 	)
-	(gr_rect
+	(gr_line
+		(start 40.386 -0.254)
+		(end 0.254 -0.254)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "61114eab-ae0b-4047-8417-cbdf8e654d48")
+	)
+	(gr_line
 		(start 0.254 -30.226)
+		(end 40.386 -30.226)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "629a7b4b-f8b9-46b3-8086-06e44e81ea86")
+	)
+	(gr_line
+		(start 40.386 -30.226)
 		(end 40.386 -0.254)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "b23ebaa7-350a-4e8f-affa-9a5bf29fb4e3")
+		(uuid "764dd06a-a988-46c9-8094-eab539d6c3ce")
+	)
+	(gr_line
+		(start 0.254 -0.254)
+		(end 0.254 -30.226)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e2d92da0-21fb-4ece-b6bd-5f437ea184e7")
 	)
 	(gr_text "Ch1"
 		(at 16.0274 -28.3464 0)
